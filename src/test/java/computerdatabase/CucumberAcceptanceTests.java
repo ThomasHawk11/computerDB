@@ -12,6 +12,6 @@ import org.junit.platform.suite.api.Suite;
 @IncludeEngines("cucumber")
 @SelectClasspathResource("computerdatabase")
 @ConfigurationParameter(key = PLUGIN_PROPERTY_NAME, value = "me.jvt.cucumber.report.PrettyReports:target/cucumber" )
-public class CucumberAcceptanceTestsRunner {
+public class CucumberAcceptanceTests {
 
 }
